@@ -1,4 +1,4 @@
 *.py @test-org-ak/test-team
 *.txt
 *.sh @testuser-ak @ajinkyak423
-*.yaml @@test-org-ak/test-team-a
+*.yaml @test-org-ak/test-team-a
