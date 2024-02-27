@@ -1,0 +1,16 @@
+name: summon-platform-CI
+
+on:
+  push:
+  workflow_dispatch:
+
+    
+jobs:
+  Build-docker-image:
+    name: docker_image
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout code
+        uses: actions/checkout@v4
+          
